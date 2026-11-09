@@ -40,19 +40,30 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Phần việc phụ trách:**
 
--
+- Nhóm trưởng: fork và quản lý repo nhóm, review và merge pull request của các thành viên.
+- Phụ trách chính CP3 (hội tụ nhóm) và CP6 (quyết định) theo bảng phân công ở trên.
+- Đại diện nhóm lên trình bày pitch và phản biện với các nhóm khác.
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
--
+- Scan 5 problem và viết 3 Problem Card kèm quy trình nháp (CP1–CP2); đưa 3 candidate vào bảng pitch của nhóm (#1–#3).
+- Lên trình bày pitch card CRO (hồ sơ giải ngân online): actor là CRO nhập liệu, quy trình 6 bước, bottleneck ở bước đọc và nhập thông tin (ước lượng ~45 trong ~80 phút mỗi bộ, ~10 bộ/tháng), impact là khách phản hồi vì xử lý chậm và ~3/10 bộ bị trả về.
+- Nhận và trả lời phản biện của lab coach khi trình bày: "Liên kết với VNeID vậy mà AI agent riêng thì xử lý như thế nào?" Hướng trả lời: agent nội bộ nhưng có liên kết VNeID, dữ liệu hồ sơ lấy về từ kho dữ liệu của nhà nước và tạo kho dữ liệu local riêng.
+- Đặt câu hỏi phản biện cho nhóm trưởng nhóm 11 (bài AI hỗ trợ ghi note task): "Note của bạn có đặt sẵn lịch thông báo không?" Bạn ấy trả lời nhóm chưa tính tới trường hợp này.
+- Cùng Khánh gom 12 candidate thành 4 cluster và phân tích ma trận độ mơ hồ × độ phức tạp để chọn mức Workflow cho candidate #7.
+- Cùng nhóm chọn candidate #7 (tổng hợp action items sau họp) làm bài báo cáo nhóm và chốt quyết định Go (Pilot phạm vi nhỏ); bài mang lên trình bày trước lab coach là card CRO.
+- Review và merge 11 pull request (#1–#11) để gộp bài của cả 4 thành viên vào nhánh `main`.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
--
+- `report/team/group_report.md` mục 2.1: dòng 1–3 bảng pitch (commit `3b987d0`); mục 2.4 (candidate #7) và mục 8 (quyết định Go).
+- `report/individual/2A202604094_PhungQuangTra.md`: mục 2–3 (bảng scan, 3 Problem Card, commit `0f7d4cf`) và mục 4 (nhật ký tham gia).
+- Bảng phân công theo checkpoint trong `TEAM.md`; lịch sử pull request #1–#11 trên repo nhóm.
 
 **Điều mình học được từ phần nhóm:**
 
--
+- Khả năng phản biện trước các câu hỏi về vấn đề AI nội bộ và đưa ra hướng giải quyết nhanh chóng.
+- Hiểu rõ nỗi đau của người dùng và nhu cầu thật sự của người dùng để tạo ra giải pháp.
 
 ### Vũ Nam Khánh - 2A202604112
 
@@ -76,8 +87,6 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 - Biết cách hạ quy mô một bài toán AI quá rộng (từ bot tự ghi âm/gửi tin nhắn) xuống dạng Workflow đơn giản, tập trung đúng điểm nghẽn tốn thời gian nhất.
 - Hiểu tầm quan trọng của Ranh giới (Boundary) và Human-in-the-loop (HITL) để tránh rủi ro AI đoán sai tên người làm hoặc tự bịa ra task làm trôi tin nhắn team.
-
--
 
 ### Phạm Duy Thành - 2A202604075
 
