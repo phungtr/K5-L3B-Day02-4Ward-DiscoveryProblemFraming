@@ -68,29 +68,24 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 ### Nguyễn Tuấn Anh - 2A202604089
 
 **Phần việc phụ trách:**
-- Làm nội dung CP3: kiểm chứng giả định và research giải pháp đã có 
+- Nội dung cho CP4: kiểm chứng giả định và research giải pháp đã có 
 - Phụ trách phần 9,10 báo cáo nhóm: viết phần Hạn chế, hướng tiếp theo và Tài liệu tham khảo 
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
-- Phỏng vấn nhanh 3 người, viết Interview snapshot (trưởng nhóm BTL năm 3, nhóm 5 người)
-- Lập bảng tổng hợp tín hiệu xác nhận/phản bác cho giả định #1–#4, #6 từ phỏng vấn và 2 nguồn research
-- Research 3 giải pháp đã có: Otter.ai My Action Items, Zoom AI Companion (Next steps), pattern AI trích xuất + người kiểm tra
-- Đề xuất thu hẹp problem từ "tổng hợp action items" xuống "xác nhận owner/deadline cho mục mơ hồ trong 15 phút sau họp", và kết luận không tự xây agent
-- Rà soát toàn bộ báo cáo để viết mục 9: chỉ ra 7 hạn chế, gồm mẫu phỏng vấn nhỏ, baseline chưa bấm giờ, giả định #5 và #6 chưa kiểm chứng, nguồn research có thiên lệch, metric "100% đúng người" chưa có cách đo, và mục 4–8 chưa cập nhật theo kết quả research ở mục 3
-- Đề xuất 7 hướng tiếp theo cho pilot: đo lại baseline, đồng bộ quy trình với bước xác nhận owner/deadline, thử công cụ có sẵn trước khi tự viết prompt, kiểm chứng giả định #5 và #6, mở rộng phỏng vấn, định nghĩa cách đo độ chính xác
-- Tổng hợp mục 10: nguồn research và các khung phương pháp nhóm đã dùng (OST, Assumption Mapping, Four Big Risks, AI Canvas, Google PAIR)
+- Phỏng vấn nhanh viết Interview snapshot (trưởng nhóm BTL năm 3, nhóm 5 người)
+- Lập bảng tổng hợp tín hiệu xác nhận/phản bác cho giả định #1–#4, #6
+- Research 3 giải pháp đã có: Otter.ai My Action Items, Zoom AI Companion (Next steps)
+- Rà soát toàn bộ báo cáo để viết mục 9: chỉ ra 7 hạn chế
+- Tổng hợp mục 10: nguồn research và các khung phương pháp nhóm đã dùng
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
-- `report/team/group_report.md`: mục 3 (Assumption Map, Kiểm chứng, Research giải pháp đã có)
 - `report/team/group_report.md`: mục 9 (Hạn chế và hướng tiếp theo), mục 10 (Tài liệu tham khảo)
 - `report/individual/2A202604089_NguyenTuanAnh.md`
 
 **Điều mình học được từ phần nhóm:**
 - Phải kiểm chứng và research giải pháp có sẵn trước khi chốt problem: nhờ vậy nhóm tránh xây lại phần đã có công cụ làm tốt
 - Cần đánh giá độ tin cậy của nguồn (thông cáo của hãng, blog bán dịch vụ) trước khi dùng số liệu
-- Khi rà soát cả báo cáo mới thấy kết luận ở một mục có thể chưa được cập nhật sang các mục sau, nên cần đọc lại toàn bộ chuỗi problem → quy trình → metric → quyết định để đảm bảo nhất quán
 - Ghi rõ hạn chế giúp pilot có kế hoạch đo cụ thể hơn, thay vì chỉ kỳ vọng con số
-- Lên kế hoạch và chia việc cho hoạt động nhóm rõ ràng, chuyên nghiệp hơn
 
 ### Vũ Nam Khánh - 2A202604112
 

@@ -331,14 +331,6 @@ Vì sao:
 
 ## 10. Tài liệu tham khảo
 
-**Nguồn research giải pháp đã có (mục 3):**
-
-- Otter.ai, "My Action Items" (thông cáo báo chí): https://www.silicon.co.uk/press-release/streamline-workflows-with-my-action-items-otter-ai-can-now-keep-track-of-all-your-action-items-across-all-your-meetings
-- Zoom Community, "How to improve Next Steps in Meeting summary": https://community.zoom.com/t5/Zoom-AI-Companion/How-to-improve-Next-Steps-in-Meeting-summary/m-p/154490
-- ConvertAudioToText, bài phân tích về trích xuất action item từ bản ghi họp: https://convertaudiototext.com/blog/action-items-from-meeting-recordings
-
-**Phương pháp và khung phân tích đã dùng:**
-
 - Teresa Torres, *Continuous Discovery Habits* (2021): Opportunity Solution Tree (mục 2.3). https://www.producttalk.org/opportunity-solution-tree/
 - David J. Bland & Alexander Osterwalder, *Testing Business Ideas* (2019): Assumption Mapping (mục 3).
 - Marty Cagan (SVPG), "The Four Big Risks": Value, Usability, Feasibility, Viability (mục 8.1). https://www.svpg.com/four-big-risks/

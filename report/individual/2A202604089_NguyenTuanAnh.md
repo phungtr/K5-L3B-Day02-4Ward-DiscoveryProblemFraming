@@ -114,16 +114,16 @@ HIỆN TẠI — ~22 phút/lần
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | [Bạn có pitch không? Nếu có: pitch problem gì, trong bao lâu] | [Problem của bạn có được giữ lại/gộp vào cluster "action items sau họp" không] |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: [ví dụ: "Bạn đã gặp vấn đề này lần gần nhất khi nào, mất bao lâu?" / "Đây là vấn đề hay là giải pháp?"] | [Nhóm/bạn đó đã sửa gì sau câu hỏi] |
-| Nhận phản biện | Câu hỏi tôi nhận được: [ví dụ: "Bước trích xuất action item đã có công cụ làm rồi, vậy khoảng trống thật nằm ở đâu?"] | Tôi đã sửa gì: thu hẹp problem từ "mất >20 phút lọc và tổng hợp action items" xuống **bước xác nhận owner/deadline cho các mục mơ hồ trong 15 phút sau họp** |
-| Gom cluster / cây OST | [Bạn có góp ý khi gom cluster không] | [...] |
-| Chọn candidate problem | [Bạn bỏ phiếu/ủng hộ problem nào, lý do] | [...] |
+| Pitch Problem Card | Pitch 3 candidate, mỗi cái khoảng 1–2 phút: #4 tìm lại thông báo/quyết định cũ trong nhóm chat (~6 phút/lần), #5 tự đối chiếu cấu trúc bài lab trước khi nộp (~12 phút/lần), #6 không biết ai đang làm phần nào và hạn bao giờ trong bài nhóm (~8 phút/lần nhắn hỏi) | #6 được gộp vào cluster A cùng #7 (action items sau họp) vì cùng pain "không rõ ai làm gì, hạn bao giờ"; #4 vào top 3 shortlist (27 điểm); #5 được xếp vào cluster D |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: với #8 (viết docs API) của Nam Khánh: "Phần nào trong việc viết docs thật sự cần AI, phần nào Swagger/OpenAPI đã tự sinh được từ code?"; với #7: "Lần gần nhất họp xong bạn mất bao lâu để tổng hợp, có bấm giờ không?" | #8 bị loại vì nhóm thấy khoảng 80% công việc giải được bằng Rule/Script; #7 được yêu cầu ghi rõ baseline thời gian và tần suất họp (30 phút, 2–3 buổi/tuần) |
+| Nhận phản biện | Câu hỏi tôi nhận được: với #4: "Muốn tìm được quyết định cũ thì cần quyền truy cập toàn bộ dữ liệu chat của nhóm/công ty, có được phép không? Phạm vi có quá rộng cho bài lab không?" | Tôi đã sửa gì: thừa nhận #4 vướng rủi ro Feasibility và Viability (quyền riêng tư dữ liệu chat), nên tôi chuyển sang ủng hộ #7. Pain của #7 gần với #6 của tôi, đo được rõ hơn và có ranh giới AI dễ kiểm soát |
+| Gom cluster / cây OST | Đề xuất gộp #6 của tôi với #7, #3, #9 vào cluster A "Quản lý & theo dõi công việc trong team"; góp ý gạch bỏ nhánh "Tự động gửi danh sách công việc vào kênh chat ngay sau họp" vì đó là tính năng, không phải opportunity | Cluster A trở thành cluster lớn nhất (5 candidate), là cơ sở để chọn #7; OST giữ được 3 opportunity đúng dạng nhu cầu (note lẫn lộn, owner/deadline không chốt, định dạng thủ công) |
+| Chọn candidate problem | Chấm điểm shortlist và bỏ phiếu cho #7 thay vì #4 của chính mình | Nhóm chọn #7 (35 điểm) với lý do actor, quy trình và baseline rõ, phù hợp mức Workflow có người kiểm tra |
 | Kiểm chứng / research | Phỏng vấn 3 người (trưởng nhóm BTL năm 3 nhóm 5 người là người chính), làm Interview snapshot; lập bảng tổng hợp tín hiệu xác nhận/phản bác cho giả định #1–#4, #6; research 3 giải pháp đã có (Otter.ai My Action Items, Zoom AI Companion Next steps, pattern AI trích xuất + người kiểm tra) | Phát hiện bước trích xuất đã được công cụ có sẵn làm khá tốt với cam kết nói rõ (~70–80%), khoảng trống nằm ở mục mơ hồ (thiếu owner/deadline) → nhóm **thu hẹp problem** và chốt hướng "không tự xây agent". Cũng chỉ ra giả định #6 (được phép đưa transcript vào AI) vẫn chưa có bằng chứng |
-| Quy trình nhóm | [Bạn có góp vào bản vẽ quy trình As-is/To-be không] | Interview snapshot cung cấp chi tiết quy trình hiện tại: gõ lại việc từ tin nhắn/ghi chú vào nhóm chat, 15–20 phút/lần, 1–2 lần/tuần |
-| Problem Statement | [Bạn có viết/sửa câu nào không] | Số liệu "15–20 phút", "họp lại 20 phút vì làm trùng việc" từ phỏng vấn được dùng làm bằng chứng cho Problem Statement |
-| Mức can thiệp AI | [...] | Bài review độc lập (AI sót/sai ~20–30% mục mơ hồ) là cơ sở để nhóm chọn mức "AI soạn nháp, người xác nhận trước khi gửi" |
-| Quyết định | [...] | Kết luận research: dùng công cụ có sẵn + rule đánh dấu mục thiếu owner/deadline + người xác nhận trong 15 phút, không xây agent |
+| Quy trình nhóm | Cung cấp chi tiết quy trình As-is từ phỏng vấn và góp ý cho bản To-be: đề xuất ghi rõ boundary "AI không tự gửi tin nhắn" và phương án quay về khi AI sai | Interview snapshot cung cấp chi tiết quy trình hiện tại: gõ lại việc từ tin nhắn/ghi chú vào nhóm chat, 15–20 phút/lần, 1–2 lần/tuần; quy trình tương lai có boundary và phương án quay về rõ ràng |
+| Problem Statement | Góp ý cho bản v1: đề xuất thêm metric về độ chính xác của người phụ trách, không chỉ đo thời gian, vì phỏng vấn cho thấy hậu quả thật là làm trùng hoặc bỏ việc | Số liệu "15–20 phút", "họp lại 20 phút vì làm trùng việc" từ phỏng vấn được dùng làm bằng chứng; v1 thêm metric "100% action items gửi đi có đúng tên người làm" |
+| Mức can thiệp AI | Đưa bằng chứng từ research vào phần so sánh 4 mức: AI sai tên, sót ~20–30% mục mơ hồ, nên không thể chọn mức Agent tự gửi | Bài review độc lập là cơ sở để nhóm chọn mức Workflow: "AI soạn nháp, người xác nhận trước khi gửi"; câu trả lời PAIR chọn augment thay vì automate |
+| Quyết định | Viết mục 9–10: chỉ ra 7 hạn chế (mẫu nhỏ, baseline chưa bấm giờ, giả định #5 và #6 chưa kiểm chứng, mục 4–8 chưa khớp với research ở mục 3) và đề xuất hướng pilot | Kết luận research: dùng công cụ có sẵn + rule đánh dấu mục thiếu owner/deadline + người xác nhận trong 15 phút, không xây agent; bổ sung kế hoạch đo baseline và kiểm chứng giả định #6 trước khi pilot |
 
 ---
 
@@ -140,48 +140,45 @@ HIỆN TẠI — ~22 phút/lần
 
 ---
 
-## 6. Reflection (CP7): GỢI Ý Ý TƯỞNG, BẠN TỰ VIẾT
+## 6. Reflection (CP7)
+
+Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
-- Nhớ lại 1 problem của nhóm khác làm bạn ấn tượng: vì sao (cụ thể, có số liệu, hay vì nó giống vấn đề của mình?).
-- Có problem nào bạn thấy là "giải pháp đội lốt vấn đề" không?
-- Bạn rút ra gì để áp vào problem của nhóm mình (ví dụ: phải có "lần gần nhất xảy ra").
 
-**6.2. Nhóm có lúc nào bị "solution-first" không?**
-- Gợi ý từ bài nhóm: ban đầu có ai nghĩ tới "làm agent/bot AI tự tổng hợp và giao việc" trước khi kiểm chứng không?
-- Thời điểm nhận ra: khi research thấy Otter/Zoom đã làm bước trích xuất → làm lại thì vô ích.
-- Nhóm xử lý: quay lại hỏi "bước nào thật sự tốn thời gian/gây lỗi?" → ra bước xác nhận owner.
+Problem em nhớ nhất là [Gợi ý chỗ ăn và chơi], em học được là problem phải bắt đầu từ chuyện đã xảy ra, nên khi phỏng vấn em luôn hỏi "lần gần nhất là khi nào".
 
-**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.** *(bắt buộc có ví dụ)*
-- Gợi ý từ bài: bạn từng nghĩ vấn đề là "lọc và tổng hợp mất >20 phút"; sau khi bị hỏi / sau research, bạn đổi sang "xác nhận owner/deadline mục mơ hồ".
-- Hoặc chiều ngược lại: bạn mang kết quả research về và **phản biện làm nhóm đổi ý** (thu hẹp problem, bỏ ý xây agent). Kể ai nói gì, bạn đưa bằng chứng gì.
-- Hoặc: 1 người phỏng vấn (nhóm 3 người) nói không thấy khó → bạn nhận ra vấn đề có thể chỉ rõ ở nhóm ≥5 người.
+**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
 
-**6.4. Kết quả kiểm chứng có làm tôi bất ngờ không?**
-- Câu nói "Họp xong ai cũng bảo mình nhớ rồi, đến thứ Tư hỏi lại thì mỗi người nhớ một kiểu."
-- Bất ngờ vì vấn đề không phải "quên ghi" mà là 2 bạn làm trùng slide, không ai làm số liệu → mất thêm 20 phút họp lại.
-- Bất ngờ vì công cụ AI có sẵn đã khá tốt (~70–80%), cái khó nằm ở mục mơ hồ.
-- Hoặc: không ai trả lời được chuyện có được đưa transcript vào AI không.
+Có. Ban đầu nhóm định xây công cụ AI tự trích action item và gán người. Khi em research thấy Otter, Zoom đã làm tốt bước này, nhóm thu hẹp sang bước xác nhận owner/deadline cho mục amơ hồ.
+
+**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+
+Có. Em pitch #4, bị hỏi có được truy cập toàn bộ dữ liệu chat không. Em thấy rủi ro quyền riêng tư quá lớn nên chuyển sang ủng hộ #7.
+
+**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+
+Có. Em tưởng mọi người quên ghi, nhưng thật ra ai cũng nghĩ mình nhớ rồi mỗi người nhớ một kiểu, dẫn tới 2 bạn làm trùng slide và phải họp lại 20 phút.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
-- Gợi ý: khó thu hẹp mà không mất ý nghĩa; khó tách "vấn đề" khỏi "giải pháp"; khó có số liệu thật khi chỉ phỏng vấn 3 người; khó viết metric đo được (ví dụ "% action item có owner rõ trong 15 phút sau họp").
 
-**6.6. Nếu làm lại, tôi sẽ đổi gì? Phản biện nhóm mạnh hơn ở điểm nào?**
-- Phỏng vấn nhiều người hơn, đặc biệt nhóm ≥5 người và người làm việc ở công ty (không chỉ sinh viên).
-- Kiểm chứng giả định #6 (quyền đưa transcript vào AI) sớm hơn, vì nó quan trọng 5/5 mà bằng chứng 1/5.
-- Kiểm chứng giả định #5 (sửa nháp < 3 phút) bằng thử thật trên 1 buổi họp.
-- Tránh tin số liệu từ blog của công ty bán dịch vụ.
+Khó nhất là metric có số thật: nhóm ghi baseline 30 phút, phỏng vấn chỉ ra 15–20 phút, và chưa ai bấm giờ.
 
-**6.7. Hiểu bài (5–8 câu, không nhìn tài liệu)**
+**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
-- **Problem:** sau mỗi buổi họp nhóm (≥5 người), các mục việc mơ hồ không được xác nhận owner/deadline → làm trùng, bỏ sót, phải họp lại.
-- **Quy trình:** họp → có note/transcript → công cụ có sẵn soạn nháp action items → rule đánh dấu mục thiếu owner/deadline → người ghi chú xác nhận với team trong 15 phút → gửi lên nhóm chat.
-- **Metric:** thời gian từ lúc kết thúc họp tới lúc gửi danh sách đã xác nhận (≤15 phút); % mục có owner rõ; số lần làm trùng/họp lại.
-- **Boundary:** AI không tự đoán owner, không tự gửi; chỉ dùng khi nhóm cho phép đưa nội dung họp vào AI.
-- **Mức can thiệp AI:** AI soạn nháp, người xác nhận trước khi gửi (human-in-the-loop).
-- **Quyết định:** không tự xây agent; dùng công cụ có sẵn + rule + bước xác nhận của người.
+Em sẽ phỏng vấn thêm người đi làm, và nói ngay khi thấy mục 4–8 vẫn viết theo hướng "AI lọc task" dù research đã chỉ ra khoảng trống ở bước xác nhận owner.
 
----
+**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+
+Sau mỗi buổi họp, các việc chưa rõ người làm và hạn chót không được xác nhận, nên team làm trùng, bỏ sót và phải họp lại. Hiện note-taker tự đọc lại ghi chú, lọc việc, gán người rồi gửi vào nhóm chat, mất 15–30 phút mỗi buổi. Metric là thời gian từ lúc họp xong đến lúc gửi danh sách đã xác nhận dưới 15 phút và mọi việc gửi đi đều đúng người làm. Boundary là AI chỉ soạn nháp, không đoán người làm khi không rõ, không bịa việc và không tự gửi. Nhóm chọn mức Workflow vì AI vẫn sót hoặc sai khoảng 20–30% mục mơ hồ nên cần người kiểm tra. Quyết định là Go với pilot 2 tuần dùng công cụ có sẵn; nếu phải sửa tay hơn một nửa bản nháp thì dừng.
+
+## 7. Tài liệu tham khảo
+
+- Otter.ai, "My Action Items" (thông cáo báo chí): https://www.silicon.co.uk/press-release/streamline-workflows-with-my-action-items-otter-ai-can-now-keep-track-of-all-your-action-items-across-all-your-meetings
+- Zoom Community, "How to improve Next Steps in Meeting summary": https://community.zoom.com/t5/Zoom-AI-Companion/How-to-improve-Next-Steps-in-Meeting-summary/m-p/154490
+- ConvertAudioToText, bài phân tích trích xuất action item từ bản ghi họp: https://convertaudiototext.com/blog/action-items-from-meeting-recordings
+- Phỏng vấn nhanh 3 người (Interview snapshot, mục 3 `report/team/group_report.md`)
+
 
 ## 7. Tài liệu tham khảo
 
