@@ -4,7 +4,7 @@
 
 - Họ tên: Nguyễn Tuấn Anh
 - MSSV: 2A202604089
-- Email trường (không bắt buộc, repo có thể để public):26ai.anhnt14@vinuni.edu.vn
+- Email trường (không bắt buộc, repo có thể để public): 26ai.anhnt14@vinuni.edu.vn
 - Tên nhóm: 4Ward
 - Link repo nhóm: https://github.com/phungtr/K5-L3B-Day02-4Ward-DiscoveryProblemFraming.git
 
