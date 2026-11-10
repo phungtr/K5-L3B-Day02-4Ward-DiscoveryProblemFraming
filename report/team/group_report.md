@@ -80,7 +80,7 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 ## 3. Kiểm chứng + research giải pháp đã có (CP4)
 
-### 3.1. Assumption Map
+### Assumption Map
 
 | # | Giả định | Loại (Value / Usability / Feasibility / Viability) | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
 |---:|---|---|---:|---:|---|
@@ -93,38 +93,47 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 Giả định nhóm kiểm chứng trong buổi này: Giả định #1, #2, #4 và #6 (đây là các giả định có mức độ quan trọng cao từ 5 và bằng chứng hiện có thấp từ 1–2).
 
-### 3.2. Kiểm chứng
+### Kiểm chứng
 
-Cách đã dùng: Phỏng vấn / Survey / Log, ticket, review
+Cách đã dùng: Phỏng vấn 2–3 người + đối chiếu bằng chứng công khai
 
-Interview snapshot (mỗi buổi phỏng vấn một bảng, hoặc đặt file trong `report/assets/cp4-interview-snapshot-N.md`):
+Interview snapshot:
 
 | Trường | Nội dung |
 |---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | |
-| Câu nói đáng nhớ nhất (nguyên văn) | |
-| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | |
-| Hiện đang xử lý bằng cách nào (workaround)? | |
-| Mất bao lâu, bao lần? | |
-| Insight / opportunity rút ra | |
+| Người được hỏi | Trưởng nhóm bài tập lớn, năm 3, nhóm 5 người_ |
+| Câu nói đáng nhớ nhất  | “Họp xong ai cũng bảo mình nhớ rồi, đến thứ Tư hỏi lại thì mỗi người nhớ một kiểu.”|
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Họp nhóm tối thứ Hai, chia 6 đầu việc. Thứ Tư phát hiện 2 bạn cùng làm phần slide, không ai làm phần số liệu. Phải họp lại 20 phút để chia lại. |
+| Hiện đang xử lý bằng cách nào | Tự gõ lại các đầu việc từ tin nhắn và ghi chú vào nhóm chat sau họp, không dùng công cụ nào. |
+| Mất bao lâu, bao lần? | Khoảng 15–20 phút mỗi lần họp, họp 1–2 lần/tuần. Tuần trước mất thêm 20 phút vì phải họp lại. |
+| Insight / opportunity rút ra | Phần tốn thời gian là gõ lại và gán người cho từng việc, không phải gửi tin. Khi owner không rõ trong buổi họp thì việc bị trùng hoặc bị bỏ. Người này đồng ý thử xác nhận qua bảng ngắn trong 15 phút sau họp (cam kết cho giả định #3). |
 
 Tổng hợp:
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
 |---|---:|---|---|
-| | | | |
+| Phỏng vấn nhanh | 3 người (2 gặp vấn đề) | 2/3 người mất 15–20 phút sau mỗi buổi họp để gõ lại việc và gán người; 1 người từng phải họp lại 20 phút vì 2 bạn làm trùng phần việc (giả định #1, #2). 2/3 người đồng ý thử xác nhận qua bảng ngắn trong 15 phút sau họp (giả định #3) | 1/3 người chỉ họp nhóm 3 người, nhớ hết việc nên không thấy khó; vấn đề có thể chỉ rõ khi nhóm từ 5 người trở lên (giả định #1). Chưa ai trả lời được câu hỏi về việc đưa transcript vào AI (giả định #6 chưa có bằng chứng) |
+| Thảo luận của người dùng trên cộng đồng Zoom (research) | 1 bài | Một người dùng cho biết phần "next steps" của bản tóm tắt AI sai tên, thiếu nhiều action item và khó chuyển thành task (giả định #2, #4) | Người này vẫn đánh giá phần tóm tắt tổng thể khá tốt, nên pain tập trung ở bước owner/action item, không phải toàn bộ ghi chú |
+| Bài đánh giá độc lập về trích xuất action item (research) | 1 bài | Công cụ bỏ sót hoặc làm sai lệch khoảng 20–30% trường hợp mơ hồ (không rõ owner, không rõ hạn), nên vẫn cần người xem lại 2–3 phút (giả định #4, #5) | Với cam kết nói rõ ("A làm B trước thứ Sáu") công cụ bắt gần như chính xác (~70–80% tổng thể), nên bước "trích xuất" không phải khoảng trống lớn |
 
-**Nhóm đã sửa problem thế nào sau kiểm chứng:**
+**Nhóm đã sửa problem thế nào sau kiểm chứng:**  Trước đây problem là "mất >20 phút lọc và tổng hợp action items". Sau research, bước trích xuất đã được nhiều công cụ giải khá tốt cho cam kết nói rõ, nên nhóm thu hẹp bottleneck vào **bước xác nhận owner/deadline cho các mục mơ hồ trong 15 phút sau họp** và đánh dấu rõ mục thiếu owner thay vì để hệ thống tự đoán.
 
-### 3.3. Research giải pháp đã có
+### Research giải pháp đã có
 
 | Công cụ / case / pattern | Link | Giải bước nào trong quy trình? | Điểm mạnh | Khoảng trống / rủi ro | Bài học cho nhóm |
 |---|---|---|---|---|---|
-| | | | | | |
-| | | | | | |
-| | | | | | |
+| Otter.ai — My Action Items | https://www.silicon.co.uk/press-release/streamline-workflows-with-my-action-items-otter-ai-can-now-keep-track-of-all-your-action-items-across-all-your-meetings | Tự nhận diện action item từ nhiều cuộc họp, gom về một chỗ để xem, giao lại, tick hoàn thành | Có link về đúng thời điểm trong cuộc họp, có email nhắc hàng tuần | Là thông cáo của chính hãng nên không nói về độ chính xác; chưa thấy bước xác nhận owner với cả team sau họp | Phần trích xuất đã có công cụ làm; nhóm không nên tự xây lại mà tập trung vào xác nhận owner |
+| Zoom AI Companion — mục Next steps | https://community.zoom.com/t5/Zoom-AI-Companion/How-to-improve-Next-Steps-in-Meeting-summary/m-p/154490 | Tạo bản tóm tắt và danh sách next steps ngay trong cuộc họp Zoom | Có sẵn trong Zoom, không cần cài thêm | Người dùng báo sai tên, thiếu action item, copy ra bảng khó dùng; chưa tự biến thành task | Cần bước người kiểm tra và quy tắc "không rõ owner thì để trống, không đoán" |
+| Pattern: trích xuất AI + bước kiểm tra của người (bài phân tích) | https://convertaudiototext.com/blog/action-items-from-meeting-recordings | Cả quy trình: trích xuất, kiểm tra 2–3 phút, đưa vào công cụ team đang dùng | Có số liệu về độ bắt cam kết, gợi ý triển khai theo giai đoạn (chạy song song trước, tin dần sau) | Là blog của một công ty bán dịch vụ phiên âm nên cần đối chiếu thêm; nêu rủi ro AI gán việc cho người không dự họp | Dùng làm cơ sở cho Boundary và HITL: AI chỉ soạn nháp, người xác nhận trước khi gửi |
 
----
+**Kết luận research:**
+
+```text
+Phần lớn bước trích xuất action item đã có công cụ làm được (Otter, Zoom AI Companion). Không có lý do tự xây agent.
+Hướng hợp lý: Công cụ có sẵn soạn nháp action items → Rule đánh dấu mục thiếu owner/deadline → người xác nhận trong 15 phút → gửi team.
+```
+
+Đây là điểm khác lớn nhất so với bản nháp ban đầu của nhóm: ban đầu nhóm định "xây một công cụ AI tự trích action item và gán assignee", nhưng research cho thấy phần trích xuất đã được giải khá tốt, còn khoảng trống nằm ở bước xác nhận owner/deadline cho các mục mơ hồ.
 
 ## 4. Quy trình trước/sau (CP5)
 
@@ -296,4 +305,42 @@ Vì sao:
 
 ## 9. Hạn chế và hướng tiếp theo
 
+### 9.1. Hạn chế
+
+| # | Hạn chế | Ảnh hưởng tới kết luận |
+|---:|---|---|
+| 1 | **Mẫu kiểm chứng nhỏ:** chỉ phỏng vấn 3 người, đều là sinh viên làm bài nhóm; chưa phỏng vấn note-taker/PM trong môi trường công ty | Số liệu baseline (15–20 phút, 30 phút) và mức độ pain chưa đại diện cho team đi làm; vấn đề có thể chỉ rõ ở nhóm từ 5 người trở lên |
+| 2 | **Baseline chưa bấm giờ thực tế:** quy trình hiện tại 30 phút là ước tính, trong khi phỏng vấn cho thấy 15–20 phút | Mục tiêu "giảm từ 30 xuống <8 phút" có thể đang phóng đại mức cải thiện; cần đo lại baseline trước pilot |
+| 3 | **Giả định #6 (được phép đưa nội dung họp vào AI) chưa có bằng chứng:** mức quan trọng 5/5 nhưng bằng chứng 1/5, chưa ai trả lời được trong phỏng vấn | Rủi ro Viability có thể cao hơn mức "Trung bình" đã đánh giá; cách "dặn người dùng tự xoá thông tin nhạy cảm" phụ thuộc vào ý thức từng người |
+| 4 | **Giả định #5 (sửa nháp dưới 3 phút) chưa kiểm chứng:** thời gian 7 phút của quy trình tương lai là kỳ vọng | Chưa biết note-taker thực sự mất bao lâu để kiểm tra, đặc biệt với các mục mơ hồ |
+| 5 | **Mục 4–8 chưa cập nhật hết theo kết quả research ở mục 3:** research đã thu hẹp bottleneck vào bước xác nhận owner/deadline cho mục mơ hồ, nhưng quy trình tương lai, Problem Statement v1 và pilot vẫn đặt trọng tâm ở bước "AI lọc task" | Phần giải pháp còn lệch so với bằng chứng: trích xuất cam kết rõ ràng đã có công cụ làm khá tốt (~70–80%), khoảng trống thật là mục thiếu owner/deadline |
+| 6 | **Nguồn research còn mỏng và có thiên lệch:** 1 thông cáo của chính hãng (Otter), 1 bài thảo luận cộng đồng (Zoom), 1 blog của công ty bán dịch vụ phiên âm | Các con số độ chính xác (~70–80%, sót 20–30% mục mơ hồ) chưa được đối chiếu với nguồn độc lập |
+| 7 | **Metric "100% action items có đúng người làm" khó đạt và khó đo:** chưa định nghĩa cách kiểm tra "đúng" (so với ai xác nhận, khi nào) | Pilot có thể không kết luận được nếu không có cách đo rõ ràng |
+
+### 9.2. Hướng tiếp theo
+
+1. **Đo lại baseline trước pilot:** note-taker bấm giờ 2 buổi họp theo cách cũ; ghi lại số action item, số mục thiếu owner/deadline, số lần làm trùng/bỏ sót trong tuần.
+2. **Đồng bộ lại mục 4–7 với kết quả research:** đưa bước "Rule đánh dấu mục thiếu owner/deadline" vào quy trình tương lai; quy tắc "không rõ owner thì để trống, không đoán"; thêm metric "% mục mơ hồ được xác nhận owner/deadline trong 15 phút sau họp".
+3. **Ưu tiên thử công cụ có sẵn trước khi tự viết prompt:** so sánh Zoom AI Companion / Otter với cách dán note vào ChatGPT/Claude trên cùng 1–2 buổi họp, xem cách nào ít phải sửa hơn.
+4. **Kiểm chứng giả định #6 trước khi pilot:** hỏi nhóm/trưởng nhóm (hoặc quy định công ty nếu có) xem có được đưa nội dung họp vào công cụ AI không, dữ liệu nào phải loại ra.
+5. **Kiểm chứng giả định #5 trong pilot:** ghi thời gian note-taker kiểm tra và sửa bản nháp, đếm số dòng bị sửa/xoá/thêm mỗi buổi.
+6. **Mở rộng phỏng vấn:** thêm 3–5 người, gồm cả người đi làm và nhóm từ 5 người trở lên, để xác nhận pain có tồn tại ngoài bối cảnh bài tập nhóm.
+7. **Định nghĩa rõ cách đo độ chính xác:** sau họp 2–3 ngày, hỏi lại từng thành viên xem việc họ nhận có đúng không; đếm số lần làm trùng/bỏ sót so với baseline.
+
+---
+
 ## 10. Tài liệu tham khảo
+
+**Nguồn research giải pháp đã có (mục 3):**
+
+- Otter.ai, "My Action Items" (thông cáo báo chí): https://www.silicon.co.uk/press-release/streamline-workflows-with-my-action-items-otter-ai-can-now-keep-track-of-all-your-action-items-across-all-your-meetings
+- Zoom Community, "How to improve Next Steps in Meeting summary": https://community.zoom.com/t5/Zoom-AI-Companion/How-to-improve-Next-Steps-in-Meeting-summary/m-p/154490
+- ConvertAudioToText, bài phân tích về trích xuất action item từ bản ghi họp: https://convertaudiototext.com/blog/action-items-from-meeting-recordings
+
+**Phương pháp và khung phân tích đã dùng:**
+
+- Teresa Torres, *Continuous Discovery Habits* (2021): Opportunity Solution Tree (mục 2.3). https://www.producttalk.org/opportunity-solution-tree/
+- David J. Bland & Alexander Osterwalder, *Testing Business Ideas* (2019): Assumption Mapping (mục 3).
+- Marty Cagan (SVPG), "The Four Big Risks": Value, Usability, Feasibility, Viability (mục 8.1). https://www.svpg.com/four-big-risks/
+- Ajay Agrawal, Joshua Gans & Avi Goldfarb, "A Simple Tool to Start Making Decisions with the Help of AI", Harvard Business Review (2018): AI Canvas (mục 6.3). https://hbr.org/2018/04/a-simple-tool-to-start-making-decisions-with-the-help-of-ai
+- Google PAIR, *People + AI Guidebook*: augment vs automate, các kiểu lỗi của AI (mục 6.4). https://pair.withgoogle.com/guidebook/
